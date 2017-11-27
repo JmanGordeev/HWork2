@@ -13,7 +13,7 @@ public class Main {
         int[] numMass = new int[4];
         int indexMass = 0;
 
-        for (int i = 1000; i > 0; i /= 10) {
+        for (int i = 1000; i > 0; i /= 10) { //а можно же было в чар массив строчку первести...
             temp = num - num % i;
             num = num - temp;
             numMass[indexMass] = temp / i;
