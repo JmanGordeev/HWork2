@@ -15,9 +15,9 @@ public class Main {
         }
 
         if (year % 400 == 0 || year % 4 == 0 && year%100!=0) {
-            System.out.println("Год высокосный");
+            System.out.println("Год высокосный, дней 366 ");
         } else {
-            System.out.println("Год !высокосный");
+            System.out.println("Год !высокосный, дней 365");
         }
     }
 }
