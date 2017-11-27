@@ -34,10 +34,7 @@ public class Main {
 
 
     static class Triangle {
-
-        public Triangle(double aX, double aY, double bX, double bY, double cX, double cY) {
-        }
-
+       
         public double getArea(double aX, double aY, double bX, double bY, double cX, double cY) {
 
             double lA = Math.sqrt(((aX - bX) * (aX - bX)) + (((aY - bY) * (aY - bY))));
